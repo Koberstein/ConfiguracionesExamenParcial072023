@@ -18,6 +18,11 @@ spring:
     mongodb:
       database: test-catalog
       port: 27018
+queue:
+  movie:
+    name: MovieQueue
+  serie:
+    name: SerieQueue
 
 eureka:
   client:
